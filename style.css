@@ -1,0 +1,171 @@
+ body {
+   padding: 30px;
+   background: #F0F0F0;
+ }
+ 
+ .layout-positioner {
+   max-width: 1024px;
+   margin: 0 auto;
+ }
+ 
+ header {
+   box-sizing: border-box;
+   background: #55acee;
+   min-height: 200px;
+   padding: 20px;
+   border-radius: 20px 20px 0 0;
+ }
+ 
+ main {
+   padding: 50px 0;
+   background: #F7F7F7;
+   min-height: 1000px;
+ }
+ 
+ footer {
+   background: #55acee;
+   min-height: 100px;
+   padding: 20px;
+   border-radius: 0 0 20px 20px;
+ }
+ 
+ figure img {
+   position: relative;
+   left: 200px;
+ }
+ 
+ figcaption {
+   font-size: 32px;
+   color: white;
+   text-align: right;
+ }
+ 
+ .flex-wrap {
+   box-sizing: border-box;
+   display: flex;
+   min-height: 200px;
+   padding: 20px;
+ }
+ 
+ .main-headline {
+   box-sizing: border-box;
+   width: 27%;
+   min-width: 100px;
+   max-width: 110px;
+   background: #ECE9E9;
+   border-radius: 10px;
+   margin-right: 20px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ }
+ 
+ .main-headline h2 {
+   text-align: center;
+   line-height: 200px;
+ }
+ 
+ .main-headline-image {
+   position: relative;
+   bottom: 10%;
+   margin: 0 auto;
+   width: 80px;
+   height: 80px;
+ }
+ 
+ .about-me .main-headline-image {
+   background: url(images/magnifier.png) no-repeat;
+   background-size: 100%;
+ }
+ 
+ .skills .main-headline-image {
+   background: url(images/tools.png) no-repeat;
+   background-size: 100%;
+ }
+ 
+ .education .main-headline-image {
+   background: url(images/education.jpg) no-repeat #ECE9E9;
+   background-size: 110%;
+ }
+ 
+ .main-content {
+   background: white;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   border-radius: 10px;
+ }
+ 
+ .main-content p {
+   margin: 20px 15px;
+ }
+ 
+ .main-content-skills {
+   flex-grow: 1;
+   padding: 25px 40px;
+   line-height: 20px;
+ }
+ 
+ .main-content-skills ul li {
+   padding: 6px 0 6px 36px;
+   background-image: url(images/list-style-image.jpg);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 20px;
+ }
+
+ .education .main-content {
+   flex-grow: 1;
+  }
+ 
+ .social-networks {
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+ }
+ 
+ .vk,
+ .git,
+ .fb {
+   width: 50px;
+   height: 50px;
+   background: white;
+   border-radius: 10px;
+ }
+ 
+ .vk {
+   margin-right: 25px;
+   background-image: url(images/vk.jpg);
+   background-size: 100%;
+ }
+ 
+ .git {
+   margin-right: 25px;
+   background-image: url(images/git.png);
+   background-size: 100%;
+ }
+ 
+ .fb {
+   background: url(images/fb.png) no-repeat;
+   background-size: 100%;
+ }
+ 
+ .social-networks a {
+   display: block;
+   width: 50px;
+   height: 50px;
+ }
+ 
+ .contacts {
+   margin-top: 50px;
+   line-height: 48px;
+ }
+ 
+ .email {
+   display: inline-block;
+   margin-right: 55%;
+   color: white;
+   font-size: 24px;
+ }
+ 
+ .phone {
+   display: inline-block;
+   color: white;
+   font-size: 24px;
+ }
