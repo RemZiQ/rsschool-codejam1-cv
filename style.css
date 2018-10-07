@@ -72,17 +72,17 @@
  }
  
  .main-content-about-me .main-headline-image {
-   background: url(Images/magnifier.png) no-repeat;
+   background: url(images/magnifier.png) no-repeat;
    background-size: 100%;
  }
  
  .skills .main-headline-image {
-   background: url(Images/tools.png) no-repeat;
+   background: url(images/tools.png) no-repeat;
    background-size: 100%;
  }
  
   .main-content-education .main-headline-image {
-   background: url(Images/education.jpg) no-repeat #ECE9E9;
+   background: url(images/education.jpg) no-repeat #ECE9E9;
    background-size: 110%;
  }
  
@@ -104,7 +104,7 @@
  
  .main-content-skills ul li {
    padding: 6px 0 6px 36px;
-   background-image: url(Images/list-style-image.jpg);
+   background-image: url(images/list-style-image.jpg);
    background-repeat: no-repeat;
    background-position: left;
    background-size: 20px;
@@ -127,18 +127,18 @@
  
  .vk {
    margin-right: 25px;
-   background-image: url(Images/vk.jpg);
+   background-image: url(images/vk.jpg);
    background-size: 100%;
  }
  
  .git {
    margin-right: 25px;
-   background-image: url(Images/git.png);
+   background-image: url(images/git.png);
    background-size: 100%;
  }
  
  .fb {
-   background: url(Images/fb.png) no-repeat;
+   background: url(images/fb.png) no-repeat;
    background-size: 100%;
  }
  
