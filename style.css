@@ -71,7 +71,7 @@
    height: 80px;
  }
  
- .main-content-about-me .main-headline-image {
+ .about-me .main-headline-image {
    background: url(images/magnifier.png) no-repeat;
    background-size: 100%;
  }
@@ -81,7 +81,7 @@
    background-size: 100%;
  }
  
-  .main-content-education .main-headline-image {
+ .education .main-headline-image {
    background: url(images/education.jpg) no-repeat #ECE9E9;
    background-size: 110%;
  }
